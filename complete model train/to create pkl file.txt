@@ -1,0 +1,7 @@
+import pickle
+
+# Assume 'model' is your trained ML model (e.g., RandomForestClassifier, LogisticRegression, etc.)
+with open("BCP.pkl", "wb") as file:
+    pickle.dump(m, file)
+
+print("✅ Model saved successfully as BCP.pkl")
